@@ -19,7 +19,6 @@
 <img width="814" alt="Screenshot 2023-02-15 at 10 35 02 PM" src="https://user-images.githubusercontent.com/49016275/219041875-3ec25bfe-e61b-4af0-a006-8ba37d4a17d0.png">
   
 + 회원 클래스 다이어그램
-
 <img width="815" alt="Screenshot 2023-02-15 at 10 36 24 PM" src="https://user-images.githubusercontent.com/49016275/219042200-8016dfb6-d1b2-4d9b-a809-6982d22c45db.png">
 
 + 회원 객체 다이어그램
