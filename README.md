@@ -25,14 +25,18 @@
 <img width="816" alt="Screenshot 2023-02-15 at 10 36 41 PM" src="https://user-images.githubusercontent.com/49016275/219042261-d0849fb9-55c4-437c-9fdd-1b76b0b6f965.png">
 
 ## 설계 - 2. 주문
+![Screenshot 2023-03-23 at 11.46.15 AM.png](..%2F..%2FDownloads%2FScreenshot%202023-03-23%20at%2011.46.15%20AM.png)
 
 + 주문 도메인 협력, 역할, 책임
- ![Screenshot 2023-02-16 at 5.13.43 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqg%2Fdz404lcn62l47j3d00y7c9gw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_smnfdg%2FScreenshot%202023-02-16%20at%205.13.43%20PM.png)
-![Screenshot 2023-02-16 at 5.14.17 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqg%2Fdz404lcn62l47j3d00y7c9gw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_UANzkg%2FScreenshot%202023-02-16%20at%205.14.17%20PM.png)
+![Screenshot 2023-03-23 at 11.45.27 AM.png](..%2F..%2FDownloads%2FScreenshot%202023-03-23%20at%2011.45.27%20AM.png)
+1.   주문 생성: 클라이언트는 주문 서비스에 주문 생성을 요청한다.
+2.   회원 조회: 할인을 위해서는 회원 등급이 필요하다. 그래서 주문 서비스는 회원 저장소에서 회원을 조회한다.
+3.   할인 적용: 주문 서비스는 회원 등급에 따른 할인 여부를 할인 정책에 위임한다. 
+4.   주문 결과 반환: 주문 서비스는 할인 결과를 포함한 주문 결과를 반환한다.
+
 
 + 주문 클래스 다이어그램
-![Screenshot 2023-02-16 at 5.15.13 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqg%2Fdz404lcn62l47j3d00y7c9gw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_Nw0TgC%2FScreenshot%202023-02-16%20at%205.15.13%20PM.png)
-
+![Screenshot 2023-03-23 at 11.46.31 AM.png](..%2F..%2FDownloads%2FScreenshot%202023-03-23%20at%2011.46.31%20AM.png)
 + 주문 객체 다이어그램
-![Screenshot 2023-02-16 at 5.15.22 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqg%2Fdz404lcn62l47j3d00y7c9gw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_DjqTzm%2FScreenshot%202023-02-16%20at%205.15.22%20PM.png)
-![Screenshot 2023-02-16 at 5.15.42 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fqg%2Fdz404lcn62l47j3d00y7c9gw0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_tsZ8c8%2FScreenshot%202023-02-16%20at%205.15.42%20PM.png)
+![Screenshot 2023-03-23 at 11.46.44 AM.png](..%2F..%2FDownloads%2FScreenshot%202023-03-23%20at%2011.46.44%20AM.png)
+![Screenshot 2023-03-23 at 11.46.37 AM.png](..%2F..%2FDownloads%2FScreenshot%202023-03-23%20at%2011.46.37%20AM.png)
